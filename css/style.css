@@ -20,9 +20,10 @@
 
 /* ---FOOTER--- */
 .header{
-    width: 1536px;
+    width: 1519px;
     position: fixed;
     top:0px;
+    background-color: #FF6900;
 }
 
 .container{
@@ -34,16 +35,36 @@
 .section{
     display: flex;  
     justify-content: space-between;
+    align-items: center;
     width: 70%;
 }
 
 .col{
-    width: 20%;
-    padding: 10px;
-    list-style-type: none;
+    color: white;
+    padding: 10px 0px;
+    width: 180px;
 }
+
+.col img{
+    width: 100px;  
+}
+
+.col-logo{
+   display: flex;
+   justify-content: end;
+}
+
 .col ul{
+    padding: 20px 0px; 
     list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+}
+.col li{
+    padding: 0px 5px; 
+}
+.col i{
+    padding: 0px 5px;
 }
 /* ---FOOTER--- */
 
@@ -53,6 +74,7 @@
     padding-top: 78.4px;
     max-width: 1536px;
 }
+
 .columns{
     width: 70%;
     margin: auto;
@@ -60,6 +82,7 @@
     flex-wrap: wrap;
     justify-content:space-between ;
 }
+
 .product img{
     width: 350px;
     padding: 10px;
