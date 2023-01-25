@@ -20,8 +20,9 @@
 
 /* ---FOOTER--- */
 .header{
-    max-width: 1560px;
-    margin: 0px auto;
+    width: 1536px;
+    position: fixed;
+    top:0px;
 }
 
 .container{
@@ -39,8 +40,43 @@
 .col{
     width: 20%;
     padding: 10px;
+    list-style-type: none;
+}
+.col ul{
+    list-style-type: none;
 }
 /* ---FOOTER--- */
 
 
 /* ---MAIN--- */
+.main{
+    padding-top: 78.4px;
+    max-width: 1536px;
+}
+.columns{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+}
+.product img{
+    width: 350px;
+    padding: 10px;
+}
+/* ---MAIN--- */
+
+/* ---FOOTER--- */
+.container-footer{
+    max-width:1536px;
+}
+.section-footer{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.col-footer{
+    width: 30%;
+    
+}
