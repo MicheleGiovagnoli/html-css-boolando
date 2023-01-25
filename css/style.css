@@ -19,11 +19,15 @@
 
 
 /* ---FOOTER--- */
+body{
+    font-family: sans-serif;
+}
 .header{
     width: 1519px;
     position: fixed;
     top:0px;
     background-color: #FF6900;
+    z-index: 1;
 }
 
 .container{
@@ -82,10 +86,66 @@
     flex-wrap: wrap;
     justify-content:space-between ;
 }
+.text{
+    
+}
+.product{
+    position: relative;
+}
+.heart{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 20px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    background-color: red;
+    position: absolute;
+    bottom: 120px;
+}
+
+.green{
+    background-color: green;
+    position: absolute;
+    bottom: 120px;
+    left: 58px;
+}
+
+.text-imp{
+    padding: 2px 10px;
+    color: white;
+    text-align: center;
+    
+}
 
 .product img{
     width: 350px;
-    padding: 10px;
+    padding-top: 10px;
+}
+
+.text{
+    padding-bottom: 20px;
+}
+.text h3{
+    font-size: 15px;
+}
+.text h5{
+    color: red;
+    display: inline-block;
+}
+.text p{
+    display: inline-block;
+    text-decoration: line-through;
+    font-size: 13px;
+}
+.text span{
+    font-size: 15px;
 }
 /* ---MAIN--- */
 
