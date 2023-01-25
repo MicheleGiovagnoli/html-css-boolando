@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ---REGOLE DI DEBUGG--- */
+.debugg-orange{
+    background-color: orange;
+    border: solid 1px white;
+}
+.debugg-blu{
+    background-color: blue;
+    border: solid 1px white;
+}
+.debugg-green{
+    background-color: green;
+    border: solid 1px white;
+}
+
+
+/* ---FOOTER--- */
+.header{
+    max-width: 1560px;
+    margin: 0px auto;
+}
+
+.container{
+    display: flex;  
+    justify-content: center;
+
+}
+
+.section{
+    display: flex;  
+    justify-content: space-between;
+    width: 70%;
+}
+
+.col{
+    width: 20%;
+    padding: 10px;
+}
+/* ---FOOTER--- */
+
+
+/* ---MAIN--- */
